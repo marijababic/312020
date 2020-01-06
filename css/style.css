@@ -1,0 +1,593 @@
+html, body { 
+overflow-x: hidden;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Muli", Helvetica, sans-serif;
+}
+
+.container { 
+    margin: 0 auto;  
+}
+
+header #nav {
+    background-color: #84EEE8;
+}
+
+header #nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header #nav img {
+  padding-left: 25px;
+}
+
+header #nav nav button {
+    display: none;
+}
+
+header #nav nav ul  {
+    display: flex;   
+}
+
+header #nav nav ul li{
+    margin: 0 20px;
+}
+
+header #nav nav ul li a:hover{
+    color:#252523;
+}
+
+header #nav nav ul li a{
+    color: #666363;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main #hero {
+    background-color: #84EEE8;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+    text-align: center;
+}
+
+main  #hero .container {
+    background-image: url("../img/graphics/girl-writing.jpg");background-size:100%;
+    height: 100%;
+    width:100%;
+    background-size: cover;
+    background-position: right center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}  
+
+main #hero .holder {
+    width: 50%;      
+}
+
+main #hero h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color:rgb(245, 241, 243);
+    text-transform: capitalize;
+    text-shadow: 1px 1px #dacaca;
+}
+
+main #hero p { 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    opacity: 0.9;
+    padding-bottom: 15px;
+ }
+
+main #hero button {
+    background-color:rgb(255, 59, 130);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 15px;
+    border: 0;
+    border-radius: 2px;
+}
+
+/* main #how .woman-photo {
+    width: 30%;
+    height: 600px;
+}
+
+main #how .woman-photo img {
+    width:100%; 
+    height:100%; 
+    object-fit:cover;
+} */
+/* how it works section */
+main #how .how-info h2 {
+    padding: 10px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+    color: #373F41;
+    max-width: 650px;
+    text-align: left;
+    padding-left: 120px;
+}
+
+main #how .how-info h3{
+    padding: 30px 0;
+    max-width: 1000px;
+    text-align: left;
+    padding: 10px 0 20px 50px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 59, 130, 0.65);
+}
+
+
+
+main #how .how-details {
+    display: flex;
+    padding: 10px 80px 0 80px;
+}
+
+main #how .how-details .details-item {
+    width: 33%;
+    padding: 20px 50px;
+}
+
+main #how .how-details .details-item .details-logo i {
+    font-size: 30px;
+    color: rgb(144, 159, 187);
+    padding-bottom: 15px;
+}
+
+main #how .how-details .details-item p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;  
+    color: #737B7D; 
+}
+/* products section */
+main #products .container {
+    background-color: #84EEE8;
+    
+
+}
+main #products .product-info h3{
+    padding: 30px 0;
+    max-width: 1000px;
+    text-align: left;
+    padding: 10px 0 20px 50px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 59, 130, 0.65);
+    
+}
+
+main #products .product-info h2{
+    padding: 10px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+    color: #373F41;
+    max-width: 650px;
+    text-align: left;
+    padding-left: 120px;
+}
+
+main #products .product-details {
+    display: flex;
+    padding: 10px 80px 0 80px;
+}
+
+main #products .product-details .product-item {
+    width: 33%;
+    padding: 20px 50px;
+}
+
+main #products .product-details .product-item .product-logo i {
+    font-size: 30px;
+    color: rgb(144, 159, 187);
+    padding-bottom: 15px;
+}
+
+main #products .product-details .product-item .product-info h2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: rgba(255, 59, 130, 0.65);
+    text-transform: uppercase;
+    text-align: left;
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+main #products .product-details .product-item p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;  
+    color: #737B7D; 
+    padding-bottom: 25px ;
+ }
+
+ main #products .product-details .product-item a {
+    text-decoration: none;
+    color: rgba(255, 59, 130, 0.65);
+    font-weight: bold;
+ }
+
+ main #customers .customers-info h2 {
+    padding: 10px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+    color: #373F41;
+    max-width: 650px;
+    text-align: left;
+    padding-left: 120px;
+ }
+
+ main #customers .customers-info h3{
+    padding: 30px 0;
+    max-width: 1000px;
+    text-align: left;
+    padding: 10px 0 20px 50px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 59, 130, 0.65);
+    
+}
+
+main #customers .customer-details {
+    display: flex;
+    padding-left: 500px;
+    padding-right: 120px;
+}
+
+main #customers .customer-details .customer {
+    padding-right: 25px;
+     }
+
+main #customers .customer-details  .customer .customer-photo img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    
+}
+
+main #customers .customer-details .customer .customer-info {
+    padding-top: 25px;
+     }
+
+
+main #customers .customer-details .customer .customer-info h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    color: #000000;
+    padding-bottom: 15px;
+     }
+
+main #customers .customer-details .customer .customer-info p {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 35px;
+    padding-right: 25px;
+    max-width: 420px;
+}
+
+/* footer*/
+footer {
+    background-color: #E5E5E5;
+}
+
+footer .upper .container {
+    display: flex;
+    padding-top: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+footer .upper .get-in-touch, .newsletter  {
+    max-width: 420px;
+}
+footer .upper h3 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: rgba(255, 59, 130, 0.65);
+    padding-bottom: 10px;
+     }
+
+footer .upper h4 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    text-transform: lowercase;
+    color: rgba(255, 59, 130, 0.65);
+    padding-bottom: 5px;
+    align-items: left;
+
+    }
+
+footer .upper p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #737B7D;
+    padding-bottom: 20px;
+ }
+
+ footer .upper address {
+    display: block;
+    font-size: 10px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #737B7D;  
+}
+
+:placeholder-shown {
+    text-transform: lowercase;
+    background-color: #9EA2A2;
+    padding: 10px;
+    border: 0;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+ }
+
+::placeholder{
+    color: white;
+}
+
+
+input[type=submit] {
+    background-color:  rgb(255, 59, 131);
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    left: -4px;
+}
+
+
+footer .lower p {
+    font-size: 10px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #737B7D;   
+}  
+
+footer .lower .social-networks ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .lower .social-networks ul li  {
+    padding-right: 25px;
+    
+}
+footer .lower .social-networks ul li a {
+    color: rgba(255, 59, 130, 0.65);
+    font-size: 35px;
+    
+}
+
+footer .bottom {
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    color: #737B7D;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+
+    
+header #nav {
+    width: 100%;
+}
+
+header #nav .container {
+    flex-wrap: wrap;
+}
+header  nav ul {
+    flex-wrap: wrap; 
+
+}
+
+header #nav nav ul {
+    display: none;
+}
+
+header #nav nav ul li {
+    width: 100%;
+}
+
+ header #nav nav button {
+    display: block;
+}
+
+header #nav #main-nav {
+    padding-right: 15px;
+}
+
+header #nav #main-nav div{
+    width: 35px;
+    height: 5px;
+    background-color: rgba(255, 59, 130, 0.65);
+    margin: 6px 0;
+    transition: 0.6;
+}
+
+main #hero .container {
+    position: absolute;
+    width: auto;
+    background-position: center;
+}
+
+main #hero .holder {
+    width: 65%;
+}
+main #hero h1 {
+    padding: 0 20px;
+    width: 100%;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+main #hero p1 {
+    padding: 0 20px;
+    width: 100%;
+}
+main #how {
+    padding-right: 15px;
+  
+}
+
+main #how .how-details  {
+    display: block;
+    padding-left: 15px;
+    
+} 
+
+main #how .how-info h2 {
+    font-size: 18px;
+    padding-left: 20px;
+    line-height: 20px;
+}
+
+main #how .how-details .details-item {
+   width: 100%;
+   padding-left: 10px 15px 0 15px;   
+} 
+
+main #how .how-details p {
+    font-size: 14px;
+}
+
+main #products .product-info h2 {
+    font-size: 18px;
+    padding-left: 20px;
+    line-height: 20px;
+}
+
+main #products .product-details {
+    display: block;
+    padding-left: 15px;
+
+}
+
+main #products .product-details .product-item {
+    width: 100%;
+    padding-left: 10px 15px 0 15px; 
+}
+
+
+main #products .product-details p {
+    font-size: 14px;
+}
+
+main #customers .customers-info {
+    padding-bottom: 15px;
+}
+main #customers .customers-info h2 {
+    font-size: 18px;
+    padding-left: 20px;
+    line-height: 20px;
+}
+
+main #customers .customer-details {
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px; 
+}
+
+main #customers .customer-details .customer { 
+    padding-right: 5px;
+ }
+
+footer .upper {
+    padding-left: 25px;
+    display: block;
+}
+
+footer .upper .get-in-touch p {
+    padding-bottom: 0px;
+}
+
+footer .upper .container {
+    display: block;
+    padding-top: 5px;
+}
+
+footer .lower .container {
+    padding-top: 20px;
+    display: flexbox;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+footer .upper .newsletter {
+    padding-top: 15px;
+}
+
+footer .lower .social-networks ul li a {
+    font-size: 25px;
+}
+ }
